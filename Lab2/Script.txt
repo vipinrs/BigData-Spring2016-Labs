@@ -1,0 +1,7 @@
+dataurl = "http://scg.sdsu.edu/wp-content/uploads/2013/09/brain_body.txt"
+
+data = read.table(dataurl, skip = 12, header = TRUE)
+
+p<-kmeans(data,3)
+
+ plot(data[c("Brain_Weight","Body_Weight")],col=p$cluster)
