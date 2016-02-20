@@ -1,0 +1,7 @@
+Scan the matrices A and B
+
+Map
+For every a(i,j) in matrix A, pair the element b(i,j) of matrix B
+
+Reduce
+Add every corresponding elements a(i,j) and b(i,j) and give the output c(i,j) = a(i,j) + b(i,j)  
